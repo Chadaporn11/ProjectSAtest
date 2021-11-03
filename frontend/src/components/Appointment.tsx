@@ -151,7 +151,7 @@ function Appointments() {
                                         <TableCell align="center">{item.Doctor.Name}</TableCell>
                                         <TableCell align="center">{item.Clinic.Name}</TableCell>
                                         <TableCell align="center">{item.Nurse.Firstname}{" "}{item.Nurse.Lastname}</TableCell>
-                                        <TableCell align="center">{moment(item.AppointmentTime).format('D MMMM YYYY,HH:mm:ss')}</TableCell>
+                                        <TableCell align="center">{moment(item.AppointmentTime).format('D MMMM YYYY (HH:mm')}{" น.)"}</TableCell>
                                         <TableCell align="center">{item.Note}</TableCell>
                                     </TableRow>
 
