@@ -1,12 +1,8 @@
 import React, { useEffect } from "react";
 import clsx from "clsx";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import {
-  createStyles,
-  makeStyles,
-  useTheme,
-  Theme,
-} from "@material-ui/core/styles";
+import {createStyles, makeStyles, useTheme,
+  Theme } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -23,16 +19,10 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import Button from "@material-ui/core/Button";
-
 import HomeIcon from "@material-ui/icons/Home";
-import AccountCircleIcon from "@material-ui/icons/AccountCircle";
-import YouTubeIcon from "@material-ui/icons/YouTube";
-
-import Navbar from "./components/Navbar";
 import Appointment from "./components/Appointment";
 import Home from "./components/Home";
 import AppointmentCreate from "./components/AppointmentCreate";
-import SignIn from "./components/Signin_Appoint";
 
 const drawerWidth = 240;
 

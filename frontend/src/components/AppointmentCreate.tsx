@@ -16,7 +16,6 @@ import Divider from "@material-ui/core/Divider";
 import Snackbar from '@material-ui/core/Snackbar';
 import Select from "@material-ui/core/Select";
 import { FormControl } from "@material-ui/core";
-
 import { NursesInterface } from "../models/INurse";
 import { DoctorsInterface } from "../models/IDoctor";
 import { ClinicsInterface } from "../models/IClinic";
@@ -28,14 +27,11 @@ import {
 } from "@material-ui/pickers";
 import DateFnsUtils from "@date-io/date-fns";
 
-
-
 function Alert(props: AlertProps) {
 
   return <MuiAlert elevation={2} variant="filled" {...props} />;
 
 }
-
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({

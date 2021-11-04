@@ -35,9 +35,6 @@ const useStyles = makeStyles((theme: Theme) =>
     })
 );
 
-
-
-
 function Appointments() {
     const [token, setToken] = React.useState<String>("");
     const classes = useStyles();
@@ -168,4 +165,3 @@ function Appointments() {
 }
 
 export default Appointments;
-//moment(item.AppointmentTime).format("yyyy/MM/dd hh:mm a")
