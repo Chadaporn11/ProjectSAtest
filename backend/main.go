@@ -62,7 +62,6 @@ func main() {
 
 	// Run the server
 	r.Run()
-	r.Run()
 }
 
 func CORSMiddleware() gin.HandlerFunc {
